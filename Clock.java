@@ -9,7 +9,7 @@ public  class  Clock {
          if( minute.getValue() == 0 ) {
               hour.increase();
              }
-          System.out.printf("%02d:%02d\n" , hour.getValue() , minute.getValue() );
+          System.out.printf( "%02d:%02d\n" , hour.getValue() , minute.getValue() );
          }
     }
          public  static  void  main( String[]  args ) {
